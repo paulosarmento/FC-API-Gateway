@@ -1,6 +1,6 @@
 # Full Cycle API Gateway
 
-This repository holds all the code and notes produced during the API Gateway module of the Full Cycle course. 
+This repository holds all the code and notes produced during the API Gateway module of the Full Cycle course.
 
 ## API Gateway
 
@@ -40,12 +40,12 @@ Kong is an open-source API gateway and microservice management layer. It is a sc
 
 ### Deployment
 
-- DB-less mode: Where all the configuration is stored in memory based on a YAML or JSON file. 
+- DB-less mode: Where all the configuration is stored in memory based on a YAML or JSON file.
 - With a database: Where all the configuration is stored in a database, PostgreSQL or Cassandra for exemple
 
 #### Distributed deployment
 
-Kong can be deployed in a distributed manner, where the control plane and the data plane are separated. The control plane is responsible for managing the configuration and the data plane is responsible for handling the requests. 
+Kong can be deployed in a distributed manner, where the control plane and the data plane are separated. The control plane is responsible for managing the configuration and the data plane is responsible for handling the requests.
 
 #### Hybrid deployment
 
@@ -74,8 +74,10 @@ Kong provides a set of tools to log the requests and responses. It is possible t
 Konga serves as a web-based user interface for the Kong Admin API, providing a straightforward, swift, and user-friendly means to oversee your Kong Gateway setup. This project is both free and open-source, operating under the Apache 2.0 license. Additionally, Konga is constructed on the foundation of Node.js, AngularJS, and Bootstrap 3.
 
 ## Running locally
- 
+
 1. Make sure to have Docker and Docker Compose installed
 1. Clone this repository
 1. Run `docker-compose up -d` to start the containers
 1. Access Konga at http://localhost:1337
+
+https://rust-keyboard-8cc.notion.site/API-Gateway-Kong-39d3a4a561474fa2a9b91ae245de5d3a?pvs=4
